@@ -3,6 +3,7 @@
 
 const meow = require('meow')
 const chalk = require('chalk')
+const getStdin = require('get-stdin')
 const { LANGUAGE } = require('./const')
 const { translate } = require('.')
 
@@ -14,6 +15,7 @@ const print = console.log
   const cli = meow(`
     Usage
       $ fy <text>
+      $ echo <text> | fy
 
     Options
       --target. -t  Target language, values can be:
@@ -36,7 +38,11 @@ const print = console.log
     },
   })
 
-  const [ original ] = cli.input
+  let [ original ] = cli.input
+
+  if (!original && !process.stdin.isTTY) {
+    original = await getStdin()
+  }
 
   if (!original) {
     return cli.showHelp()
