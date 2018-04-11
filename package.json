@@ -1,6 +1,6 @@
 {
   "name": "qq-fanyi-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Tencent translator in command line",
   "bin": {
     "fy": "./cli.js"
