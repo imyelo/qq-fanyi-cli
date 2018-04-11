@@ -25,6 +25,8 @@ const print = console.log
     Examples
     $ fy 腾讯翻译君 --target en
       Tencent Mr. Translator
+
+    Translation is driven by http://fanyi.qq.com
   `, {
     flags: {
       target: {
