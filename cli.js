@@ -40,7 +40,7 @@ const print = console.log
     },
   })
 
-  let [ original ] = cli.input
+  let original = cli.input.join(' ')
 
   if (!original && !process.stdin.isTTY) {
     original = await getStdin()
