@@ -37,7 +37,8 @@ exports.translate = async function translate (options) {
       cookie: cookie,
     },
   })
-  let result = op.get(response, 'body.translate.records.0.targetText')
+  let records = op.get(response, 'body.translate.records') || []
+  let result = records.map(({ targetText }) => targetText).join('')
 
   if (!result) {
     console.error(response)
