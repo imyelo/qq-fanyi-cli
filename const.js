@@ -1,0 +1,17 @@
+exports.LANGUAGE = {
+  ZH: 'zh',
+  EN: 'en',
+  JP: 'jp',
+  KR: 'kr',
+  FR: 'fr',
+  ES: 'es',
+  IT: 'it',
+  DE: 'de',
+  TR: 'tr',
+  RU: 'ru',
+  PT: 'pt',
+  VI: 'vi',
+  ID: 'id',
+  TH: 'th',
+  MS: 'ms',
+}

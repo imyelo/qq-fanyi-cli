@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "bin": {
-    "qq-fanyi": "./bin/cli"
+    "fy": "./cli.js"
   },
-  "scripts": {
-  },
+  "main": "index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imyelo/qq-fanyi-cli.git"
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/imyelo/qq-fanyi-cli/issues"
   },
-  "homepage": "https://github.com/imyelo/qq-fanyi-cli#readme"
+  "homepage": "https://github.com/imyelo/qq-fanyi-cli#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "got": "^8.3.0",
+    "meow": "^4.0.0",
+    "object-path": "^0.11.4"
+  }
 }
