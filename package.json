@@ -1,0 +1,20 @@
+{
+  "name": "qq-fanyi-cli",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "qq-fanyi": "./bin/cli"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imyelo/qq-fanyi-cli.git"
+  },
+  "author": "yelo <zhihuzeye@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imyelo/qq-fanyi-cli/issues"
+  },
+  "homepage": "https://github.com/imyelo/qq-fanyi-cli#readme"
+}

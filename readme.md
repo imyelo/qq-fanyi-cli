@@ -1,0 +1,1 @@
+# qq-fanyi-cli
