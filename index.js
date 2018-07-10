@@ -2,9 +2,9 @@ const got = require('got')
 const op = require('object-path')
 const { LANGUAGE } = require('./const')
 
-const QQ_TRANSLATE_HOME_URL = 'http://fanyi.qq.com/'
-const QQ_TRANSLATE_API_URL = 'http://fanyi.qq.com/api/translate'
-const QQ_TRANSLATE_API_ORIGIN = 'http://fanyi.qq.com'
+const QQ_TRANSLATE_HOME_URL = 'https://fanyi.qq.com/'
+const QQ_TRANSLATE_API_URL = 'https://fanyi.qq.com/api/translate'
+const QQ_TRANSLATE_API_ORIGIN = 'https://fanyi.qq.com'
 
 const TRANSLATE_DEFAULT_OPTIONS = {
   source: 'auto',
