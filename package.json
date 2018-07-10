@@ -6,7 +6,9 @@
     "fy": "./cli.js"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "ava"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imyelo/qq-fanyi-cli.git"
@@ -23,5 +25,8 @@
     "got": "^8.3.0",
     "meow": "^4.0.0",
     "object-path": "^0.11.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
   }
 }
